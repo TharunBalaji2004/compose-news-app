@@ -7,4 +7,7 @@ object Constants {
     val mediumPadding2 = 30.dp
 
     val indicatorSize = 14.dp
+
+    const val USER_SETTINGS = "userSettings"
+    const val APP_ENTRY = "appEntry"
 }
