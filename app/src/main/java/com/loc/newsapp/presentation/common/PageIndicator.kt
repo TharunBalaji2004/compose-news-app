@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import com.loc.newsapp.presentation.utils.Constants.indicatorSize
+import com.loc.newsapp.ui.theme.Blue
 import com.loc.newsapp.ui.theme.BlueGray
 
 // Creates dotted Page Indicator
@@ -21,7 +22,7 @@ fun PageIndicator(
     modifier: Modifier = Modifier,
     pageSize: Int,
     selectedPage: Int,
-    selectorColor: Color = MaterialTheme.colorScheme.primary,
+    selectorColor: Color = Blue,
     unselectedColor: Color = BlueGray
 ) {
     Row(modifier = modifier, horizontalArrangement = Arrangement.SpaceBetween) {
