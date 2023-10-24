@@ -24,7 +24,7 @@ import com.loc.newsapp.presentation.common.NewsButton
 import com.loc.newsapp.presentation.common.NewsTextButton
 import com.loc.newsapp.presentation.common.PageIndicator
 import com.loc.newsapp.presentation.onboarding.components.OnboardingPage
-import com.loc.newsapp.presentation.utils.Constants.mediumPadding2
+import com.loc.newsapp.utils.Constants.mediumPadding2
 import com.loc.newsapp.ui.theme.NewsAppTheme
 import kotlinx.coroutines.launch
 

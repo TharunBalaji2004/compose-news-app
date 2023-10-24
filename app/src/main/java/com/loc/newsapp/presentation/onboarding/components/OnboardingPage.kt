@@ -19,8 +19,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.loc.newsapp.R
 import com.loc.newsapp.presentation.onboarding.Page
 import com.loc.newsapp.presentation.onboarding.pages
-import com.loc.newsapp.presentation.utils.Constants.mediumPadding1
-import com.loc.newsapp.presentation.utils.Constants.mediumPadding2
+import com.loc.newsapp.utils.Constants.mediumPadding1
+import com.loc.newsapp.utils.Constants.mediumPadding2
 import com.loc.newsapp.ui.theme.NewsAppTheme
 
 @Composable

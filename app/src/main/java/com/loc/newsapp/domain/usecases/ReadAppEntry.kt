@@ -1,6 +1,6 @@
-package com.loc.newsapp.presentation.domain.usecases
+package com.loc.newsapp.domain.usecases
 
-import com.loc.newsapp.presentation.domain.manager.LocalUserManager
+import com.loc.newsapp.domain.manager.LocalUserManager
 import kotlinx.coroutines.flow.Flow
 
 class ReadAppEntry (
