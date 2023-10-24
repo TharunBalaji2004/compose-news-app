@@ -1,5 +1,15 @@
 # NewsApp
-An Android app built with Jetpack Compose and the latest android libraries.
+This app is designed to provide a seamless and user-friendly news reading experience. It features a modern UI built with Jetpack Compose, and it uses MVVM + MVI architecture to ensure separation of concerns and testability. Paging3 is used to efficiently handle large datasets of news articles, and Retrofit is used to fetch news articles from a remote API. Room is used to store news articles locally, and DataStore is used to store user preferences. Dagger Hilt is used to provide dependency injection, making the code more modular and maintainable.
+
+Features:
+
+- Modern UI built with Jetpack Compose
+- MVVM + MVI architecture for separation of concerns and testability
+- Paging3 for efficient handling of large datasets
+- Retrofit for fetching news articles from a remote API
+- Room for storing news articles locally
+- DataStore for storing user preferences
+- Dagger Hilt for dependency injection
 
 # Preview 
 <img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/0ba957e5-8b70-42d6-ab09-2cf38ba3936e"><br>
