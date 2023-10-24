@@ -1,7 +1,7 @@
 package com.loc.newsapp.di
 
 import android.app.Application
-import com.loc.newsapp.data.LocalUserManagerImpl
+import com.loc.newsapp.data.manager.LocalUserManagerImpl
 import com.loc.newsapp.domain.manager.LocalUserManager
 import com.loc.newsapp.domain.usecases.AppEntryUseCases
 import com.loc.newsapp.domain.usecases.ReadAppEntry
