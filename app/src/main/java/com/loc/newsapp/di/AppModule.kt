@@ -3,9 +3,9 @@ package com.loc.newsapp.di
 import android.app.Application
 import com.loc.newsapp.data.manager.LocalUserManagerImpl
 import com.loc.newsapp.domain.manager.LocalUserManager
-import com.loc.newsapp.domain.usecases.AppEntryUseCases
-import com.loc.newsapp.domain.usecases.ReadAppEntry
-import com.loc.newsapp.domain.usecases.SaveAppEntry
+import com.loc.newsapp.domain.usecases.appentry.AppEntryUseCases
+import com.loc.newsapp.domain.usecases.appentry.ReadAppEntry
+import com.loc.newsapp.domain.usecases.appentry.SaveAppEntry
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
